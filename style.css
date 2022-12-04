@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pong-container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 3px solid black;
+}
+
+.left-stick {
+    position: absolute;
+    top: 165px;
+    left: 20px;
+    width: 5px;
+    height: 70px;
+    background-color: black;
+
+}
+.right-stick {
+    position: absolute;
+    top: 165px;
+    right: 20px;
+    width: 5px;
+    height: 70px;
+    background-color: black;
+}
+
+.ball {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 192.5px;
+    left: 192.5px;
+    border-radius: 50%;
+    background-color: black;
+}
